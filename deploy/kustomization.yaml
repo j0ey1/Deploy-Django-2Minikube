@@ -1,0 +1,6 @@
+secretGenerator:
+  - name: db-password
+    literals:
+      - password=p@$$w0rd1
+resources:
+  - postgres.yaml
