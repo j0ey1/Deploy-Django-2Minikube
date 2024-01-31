@@ -31,7 +31,6 @@ spec:
       labels:
         app: django
         tier: postgres
-
     spec:
       volumes:
         - name: postgres-data
