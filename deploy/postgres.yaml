@@ -6,7 +6,7 @@ metadata:
     app: django
 spec:
   ports:
-    - ports: 5432
+    - port: 5432
   selector:
     app: django
     tier: postgre
@@ -17,7 +17,7 @@ spec:
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: django-postgres-pvs
+  name: django-postgres-pvc
   labels:
     app: django
 spec:
